@@ -1,4 +1,4 @@
-from amoeba.amoeba import env
+from amoeba import env
 env.set_env("./.env")
 from weather.weather import Weather
 from weather.rec_engine.engine import Recommendation
