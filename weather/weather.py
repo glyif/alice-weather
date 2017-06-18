@@ -12,6 +12,7 @@ class Weather:
     def daily_weather(self):
         daily_url = "http://api.openweathermap.org/data/2.5/forecast/daily"
         payload = {
+                "units" : "Imperial",
                 "APPID" : Weather.api,
                 "zip" : self.location,
                 "cnt" : "1"
