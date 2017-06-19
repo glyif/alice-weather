@@ -1,4 +1,5 @@
+-i https://pypi.python.org/pypi/
+twilio
 -i https://testpypi.python.org/pypi
 amoeba
 requests
-
